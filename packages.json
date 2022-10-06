@@ -1,0 +1,17 @@
+[
+    {
+        "package": "salso",
+        "url": "https://github.com/dbdahl/salso",
+        "subdir": "salso"
+    },
+    {
+        "package": "fangs",
+        "url": "https://github.com/dbdahl/fangs",
+        "subdir": "fangs"
+    },
+    {
+        "package": "caviarpd",
+        "url": "https://github.com/dbdahl/caviarpd",
+        "subdir": "caviarpd"
+    },
+]
