@@ -1,5 +1,10 @@
 [
     {
+        "package": "cargo",
+        "url": "https://github.com/dbdahl/cargo-framework",
+        "subdir": "cargo"
+    },
+    {
         "package": "salso",
         "url": "https://github.com/dbdahl/salso",
         "subdir": "salso"
