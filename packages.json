@@ -7,7 +7,8 @@
     {
         "package": "salso",
         "url": "https://github.com/dbdahl/salso",
-        "subdir": "salso"
+        "subdir": "salso",
+        "branch": "runiverse"
     },
     {
         "package": "fangs",
