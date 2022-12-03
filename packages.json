@@ -18,6 +18,7 @@
     {
         "package": "caviarpd",
         "url": "https://github.com/dbdahl/caviarpd",
-        "subdir": "caviarpd"
+        "subdir": "caviarpd",
+        "branch": "runiverse"
     }
 ]
