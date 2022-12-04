@@ -13,7 +13,8 @@
     {
         "package": "fangs",
         "url": "https://github.com/dbdahl/fangs",
-        "subdir": "fangs"
+        "subdir": "fangs",
+        "branch": "runiverse"
     },
     {
         "package": "caviarpd",
