@@ -1,0 +1,7 @@
+[
+    {
+        "package": "cargo",
+        "url": "https://github.com/dbdahl/cargo-framework",
+        "subdir": "cargo"
+    }
+]
