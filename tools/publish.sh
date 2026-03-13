@@ -133,4 +133,9 @@ git -C "$tmp_worktree" commit -m "publish $package $version" >/dev/null
 
 git -C "$tmp_worktree" push --force-with-lease origin "HEAD:refs/heads/pkg/$package"
 
+# Update local tracking ref so "git checkout pkg/<package>" shows current content
+git -C "$universe_repo_root" fetch origin "refs/heads/pkg/$package:refs/remotes/origin/pkg/$package" 2>/dev/null || true
+# Remove any stale local branch that would shadow the remote
+git -C "$universe_repo_root" branch -D "pkg/$package" 2>/dev/null || true
+
 printf 'published %s %s\n' "$package" "$version"
