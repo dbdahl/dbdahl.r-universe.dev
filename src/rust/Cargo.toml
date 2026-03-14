@@ -1,0 +1,26 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+publish = false
+rust-version = "1.88"
+
+[lib]
+crate-type = ["staticlib"]
+
+# To convert stop!() to panic!(), set RUST_BACKTRACE=1 environment variable.
+[profile.release]
+debug = 1
+lto = "thin"
+
+[dependencies]
+roxido = { path="roxido" }
+rand = "0.10.0"
+rand_pcg = "0.10.0"
+rand_distr = "0.6.0"
+rayon = "1.7.0"
+ndarray = "0.17.2"
+dahl-randompartition = { git="https://github.com/dbdahl/rust-dahl-randompartition.git", rev= "56edec83" }
+statrs = "0.18.0"
+# dahl-randompartition = { path="/home/dahl/docs/devel/rust-dahl-randompartition" }
