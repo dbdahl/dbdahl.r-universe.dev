@@ -1,0 +1,46 @@
+This R package contains Rust code which depends on the Rust crates listed below.
+The source code is vendored in the R package and can also be found at
+https://crates.io/crates/XXXX, where XXXX is a crate name.
+The authors of these Rust crates are listed below.
+
+Aaron Trent <novacrazy@gmail.com>                 : generic-array
+Aleksey Kladov <aleksey.kladov@gmail.com>         : once_cell
+Alex Crichton <alex@alexcrichton.com>             : cfg-if, proc-macro2
+Andre Bogus <bogusandre@gmail.com>                : typenum
+Andreas Longva                                    : nalgebra-macros
+Andrew Gallant <jamslam@gmail.com>                : byteorder, memchr, same-file, ucd-trie, walkdir, winapi-util
+Bartłomiej Kamiński <fizyk20@gmail.com>           : generic-array
+Benjamin Fry <benjaminfry@me.com>                 : enum-as-inner
+bluss                                             : either, matrixmultiply, memchr, rawpointer
+Brendan Zabarauskas <bjzaba@yahoo.com.au>         : approx
+David B. Dahl <dahl@stat.byu.edu>                 : rbindings, roxido, roxido_macro
+David Tolnay <dtolnay@gmail.com>                  : paste, proc-macro2, quote, seq-macro, syn, thiserror, thiserror-impl, unicode-ident
+Dragoș Tiselice <dragostiselice@gmail.com>        : pest, pest_derive, pest_generator, pest_meta
+Eira Fransham <jackefransham@gmail.com>           : crunchy
+Fabian Freyer <fabian.freyer@physik.tu-berlin.de> : sysctl
+Gerd Zellweger <mail@gerdzellweger.com>           : raw-cpuid
+Ivan Temchenko <ivan.temchenko@yandex.ua>         : sysctl
+Jack Wrenn <jswrenn@amazon.com>                   : zerocopy, zerocopy-derive
+Jim Turner <py_literal@turner.link>               : py_literal
+Johannes Lundberg <johalun0@gmail.com>            : sysctl
+Jorge Aparicio <jorge@japaric.io>                 : libm
+Josh Stone <cuviper@gmail.com>                    : autocfg, rayon, rayon-core
+Joshua Liebow-Feeser <joshlf@google.com>          : zerocopy, zerocopy-derive
+Kathryn Long <squeeself@gmail.com>                : half
+Lokathor <zefria@gmail.com>                       : bytemuck, bytemuck_derive, safe_arch, wide
+Michael Lamparski <diagonaldevice@gmail.com>      : npyz
+Michael Ma                                        : statrs
+Microsoft                                         : windows-sys, windows-targets, windows_aarch64_gnullvm, windows_aarch64_msvc, windows_i686_gnu, windows_i686_gnullvm, windows_i686_msvc, windows_x86_64_gnu, windows_x86_64_gnullvm, windows_x86_64_msvc
+Niko Matsakis <niko@alum.mit.edu>                 : rayon, rayon-core
+Paho Lurie-Gregg <paho@paholg.com>                : typenum
+Pavel Potocek <pavelpotocek@gmail.com>            : npyz
+R. Janis Goldschmidt                              : matrixmultiply
+RustCrypto Developers                             : block-buffer, cpufeatures, crypto-common, digest, sha2
+sarah                                             : dyn-stack, equator, equator-macro, gemm, gemm-c32, gemm-c64, gemm-common, gemm-f16, gemm-f32, gemm-f64, nano-gemm-c32, nano-gemm-c64, nano-gemm-codegen, nano-gemm-core, nano-gemm-f32, nano-gemm-f64, pulp, reborrow
+sarah quiñones <sarah@veganb.tw>                  : faer, faer-macros, faer-traits
+Sergio Benitez <sb@sergio.bz>                     : version_check
+Sébastien Crozet <developer@crozet.re>            : nalgebra, nalgebra-macros, simba
+The Cranelift Project Developers                  : wasi
+The CryptoCorrosion Contributors                  : ppv-lite86, rand_chacha
+The Rand Project Developers                       : getrandom, rand, rand_chacha, rand_core, rand_distr
+The Rust Project Developers                       : bitflags, libc, num-bigint, num-complex, num-integer, num-rational, num-traits, rand, rand_chacha, rand_core
