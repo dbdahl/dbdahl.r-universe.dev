@@ -1,0 +1,33 @@
+This R package contains Rust code which depends on the Rust crates listed below.
+The source code is vendored in the R package and can also be found at
+https://crates.io/crates/XXXX, where XXXX is a crate name.
+The authors of these Rust crates are listed below.
+
+Aleksey Kladov <aleksey.kladov@gmail.com>       : once_cell
+Alex Crichton <alex@alexcrichton.com>           : cfg-if, fnv, proc-macro2, wit-bindgen
+Amanieu d'Antras <amanieu@gmail.com>            : hashbrown
+Andrew Gallant <jamslam@gmail.com>              : memchr
+Anton Lazarev                                   : enum_dispatch
+bluss                                           : either, itertools, memchr
+Colin Kiegel <kiegel@gmx.de>                    : derive_builder, derive_builder_core, derive_builder_macro
+Danny Guo <danny@dannyguo.com>                  : strsim
+David B. Dahl <dahl@stat.byu.edu>               : lorenz-ip-distr, rbindings, roxido, roxido_macro
+David Tolnay <dtolnay@gmail.com>                : itoa, proc-macro2, quote, rustversion, ryu, serde, serde_core, serde_derive, serde_json, syn, thiserror, thiserror-impl, unicode-ident, zmij
+Erick Tryzelaar <erick.tryzelaar@gmail.com>     : serde, serde_core, serde_derive, serde_json
+Jack Wrenn <jswrenn@amazon.com>                 : zerocopy, zerocopy-derive
+Jan-Erik Rediger <janerik@fnordig.de>           : derive_builder, derive_builder_core, derive_builder_macro
+Jerome Froelich <jeromefroelic@hotmail.com>     : lru
+Josh Stone <cuviper@gmail.com>                  : autocfg
+Joshua Liebow-Feeser <joshlf@google.com>        : zerocopy, zerocopy-derive
+Marvin Löbel <loebel.marvin@gmail.com>          : lazy_static
+Mikhail Vorotilov <mikhail.vorotilov@gmail.com> : roots
+Nick Fitzgerald <fitzgen@gmail.com>             : bumpalo
+Orson Peters <orsonpeters@gmail.com>            : foldhash
+Pascal Hertleif <killercup@gmail.com>           : derive_builder, derive_builder_core, derive_builder_macro
+Paul Goulart <paul.goulart@eng.ox.ac.uk>        : clarabel
+Ted Driggs <ted.driggs@outlook.com>             : darling, darling_core, darling_macro, derive_builder, derive_builder_core, derive_builder_macro, ident_case
+The CryptoCorrosion Contributors                : ppv-lite86, rand_chacha
+The Rand Project Developers                     : getrandom, rand, rand_chacha, rand_core, rand_pcg
+The Rust Project Developers                     : libc, num-traits, rand, rand_chacha, rand_core
+The wasm-bindgen Developers                     : js-sys, wasm-bindgen, wasm-bindgen-macro, wasm-bindgen-macro-support, wasm-bindgen-shared
+Zakarum <zaq.dev@icloud.com>                    : allocator-api2

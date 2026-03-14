@@ -1,0 +1,23 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+publish = false
+rust-version = "1.88"
+
+[lib]
+crate-type = ["staticlib"]
+
+# To convert stop!() to panic!(), set RUST_BACKTRACE=1 environment variable.
+[profile.release]
+debug = 1
+lto = "thin"
+
+[dependencies]
+lorenz-ip-distr = { path = "rust-dahl-lorenz-ip-distr" }
+crp-distr = { path = "rust-dahl-crp-distr" }
+rand = "0.10.0"
+rand_pcg = "0.10.0"
+roxido = { path="roxido" }
+
