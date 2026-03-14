@@ -1,5 +1,10 @@
 [
   {
+    "package": "lorenzpartition",
+    "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
+    "branch": "pkg/lorenzpartition"
+  },
+  {
     "package": "splinclust",
     "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
     "branch": "pkg/splinclust"
