@@ -15,6 +15,11 @@
     "branch": "pkg/splinclust"
   },
   {
+    "package": "gourd",
+    "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
+    "branch": "pkg/gourd"
+  },
+  {
     "package": "fangs",
     "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
     "branch": "pkg/fangs"
