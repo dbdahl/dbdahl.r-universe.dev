@@ -3,5 +3,10 @@
     "package": "splinclust",
     "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
     "branch": "pkg/splinclust"
+  },
+  {
+    "package": "salso",
+    "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
+    "branch": "pkg/salso"
   }
 ]
