@@ -1,0 +1,53 @@
+0.2.24 (2025-03-14)
+  * Latest Roxido framework.
+
+0.2.23 (2025-03-11)
+  * Latest Roxido framework.
+
+0.2.22 (2025-03-07)
+  * Latest Roxido framework.
+
+0.2.21 (2025-04-10)
+  * Update paper citation.
+  * Do not specify a build target and rely on the default choice.
+  * Latest Roxido framework.
+  
+0.2.18 (2025-03-21)
+  * Internal update to track latest roxido framework.
+  * Update for CRAN compliance regarding "WARNINGs about calling bad
+    entry points in the "compiled code" check.
+
+0.2.15 (2024-09-06)
+  * Internal update to track latest roxido framework.
+  * Update for CRAN compliance in reporting rustc version during installation.
+
+0.2.13 (2023-07-14)
+  * Adjust "SystemRequirements" as per
+    [Using Rust in CRAN packages](https://cran.r-project.org/web/packages/using_rust.html)
+  * Updated reference for paper.
+  * Updated to the latest framework from the cargo package.
+  * Clippy and other clean-ups.
+
+0.2.11 (2023-01-23)
+  * Tidying up interface.
+
+0.2.8 (2022-12-19)
+  * Added algorithm argument to fangs function, providing new search
+    algorithms.
+
+0.2.2 (2022-12-03)
+  * Noted authorship of vendored Rust crates in DESCRIPTION, inst/AUTHORS, and
+    LICENSE.note.
+  * Modified configure script based on CRAN feedback.
+
+0.1.6 (2022-06-25)
+  * Modified configure script based on CRAN feedback.
+  * Implemented CRAN suggestion regarding getwd(), setwd(), and on.exit().
+  * Followed CRAN suggestion regarding the use of cat().
+
+0.1.1 (2022-06-22)
+  * Fixed typographical error in DESCRIPTION file.
+
+0.1.0 (2022-06-22)
+  * Initial submission to CRAN.
+
