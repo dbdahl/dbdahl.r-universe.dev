@@ -1,0 +1,18 @@
+Package: bantha
+Title: Bayesian Network Thresholding Heuristic Algorithm (BANTHA)
+Version: 0.1.22
+Authors@R: c(
+    person(given = "David B.", family = "Dahl", role = c("aut", "cre"), email = "dahl@stat.byu.edu", comment = c(ORCID = "0000-0002-8173-1547")),
+    person(given = "Elissa", family = "Bailey", role = c("aut"), email = "elissafish@gmail.com"),
+    person(given = "Daisy", family = "Harris", role = c("aut"), email = "dasharon14@gmail.com"),
+    person(given = "Authors of the dependency Rust crates", role = "ctb", comment = "see inst/AUTHORS file for details"))
+Description: The BANTHA algorithm is a greedy search method which can be used to estimate a Bayesian network by minimizing the expected generalized structural Hamming (GSH) loss based on posterior samples from the Bayesian network distribution. See Dahl, Bailey, Harris, Andros (2025) <https://dahl.byu.edu/papers/dahl_bailey_harris_andros.pdf>.
+License: MIT + file LICENSE | Apache License 2.0
+Imports: methods
+Depends: R (>= 4.3)
+SystemRequirements: Cargo (Rust's package manager), rustc
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Config/Roxido/TemplateVersion: 26.03.14.08.27
+Config/Roxido/MinCLIVersion: 0.8.0
