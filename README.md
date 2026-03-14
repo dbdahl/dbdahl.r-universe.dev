@@ -30,3 +30,7 @@ Then `install.packages("splinclust")` works normally.
 
 Always include CRAN alongside the universe URL so that dependencies resolve
 correctly.
+
+## Latest build results
+
+[Latest build results](https://github.com/r-universe/dbdahl/actions)
