@@ -5,6 +5,11 @@
     "branch": "pkg/bantha"
   },
   {
+    "package": "pumpkin",
+    "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
+    "branch": "pkg/pumpkin"
+  },
+  {
     "package": "lorenzpartition",
     "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
     "branch": "pkg/lorenzpartition"
