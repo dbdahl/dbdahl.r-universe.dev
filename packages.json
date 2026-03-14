@@ -10,6 +10,11 @@
     "branch": "pkg/fangs"
   },
   {
+    "package": "caviarpd",
+    "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
+    "branch": "pkg/caviarpd"
+  },
+  {
     "package": "salso",
     "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
     "branch": "pkg/salso"
