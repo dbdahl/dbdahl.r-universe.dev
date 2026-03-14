@@ -1,0 +1,25 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+publish = false
+rust-version = "1.88"
+
+[lib]
+crate-type = ["staticlib"]
+
+# To convert stop!() to panic!(), set RUST_BACKTRACE=1 environment variable.
+[profile.release]
+debug = 1
+lto = "thin"
+
+[dependencies]
+rand = "0.9.0"
+rand_pcg = "0.9.0"
+rand_distr = "0.5.1"
+crossbeam = "0.8.4"
+roots = "0.0.8"
+dahl-salso = { git="https://github.com/dbdahl/rust-dahl-salso.git", rev="a219b2830" }
+epa = { path = "epa" }
+roxido = { path = "roxido" }

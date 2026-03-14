@@ -1,0 +1,24 @@
+This R package contains Rust code which depends on the Rust crates listed below.
+The source code is vendored in the R package and can also be found at
+https://crates.io/crates/XXXX, where XXXX is a crate name.
+The authors of these Rust crates are listed below.
+
+Alex Crichton <alex@alexcrichton.com>           : cfg-if, proc-macro2
+bluss                                           : matrixmultiply, rawpointer
+Brendan Zabarauskas <bjzaba@yahoo.com.au>       : approx
+David B. Dahl <dahl@stat.byu.edu>               : dahl-partition, dahl-salso, epa, rbindings, roxido, roxido_macro
+David Tolnay <dtolnay@gmail.com>                : proc-macro2, quote, syn, unicode-ident
+Jack Wrenn <jswrenn@amazon.com>                 : zerocopy, zerocopy-derive
+Jim Turner                                      : ndarray
+Jorge Aparicio <jorge@japaric.io>               : libm
+Josh Stone <cuviper@gmail.com>                  : autocfg
+Joshua Liebow-Feeser <joshlf@google.com>        : zerocopy, zerocopy-derive
+Mikhail Vorotilov <mikhail.vorotilov@gmail.com> : roots
+R. Janis Goldschmidt                            : matrixmultiply
+Sean McArthur <sean@seanmonstar.com>            : num_cpus
+Stefan Lankes                                   : hermit-abi
+The Cranelift Project Developers                : wasi
+The CryptoCorrosion Contributors                : ppv-lite86, rand_chacha
+The Rand Project Developers                     : getrandom, rand, rand_chacha, rand_core, rand_distr, rand_pcg
+The Rust Project Developers                     : bitflags, libc, num-complex, num-integer, num-traits, rand, rand_chacha, rand_core
+Ulrik Sverdrup "bluss"                          : ndarray

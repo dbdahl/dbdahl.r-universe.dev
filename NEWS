@@ -1,0 +1,65 @@
+0.3.24 (2025-03-14)
+  * Latest Roxido framework.
+
+0.3.23 (2025-03-11)
+  * Latest Roxido framework.
+
+0.3.22 (2025-03-07)
+  * Latest Roxido framework.
+
+0.3.21 (2025-10-08)
+  * Address complication issue on CRAN.
+  * Latest Roxido framework.
+
+0.3.20 (2025-06-02)
+  * Latest Roxido framework.
+
+0.3.19 (2025-04-09)
+  * Do not specify a build target and rely on the default choice.
+
+0.3.18 (2025-04-07)
+  * Bump Rust version.
+
+0.3.14 (2025-03-29)
+  * Internal update to track latest roxido framework.
+  * Update for CRAN compliance regarding "WARNINGs about calling bad
+    entry points in the "compiled code" check.
+
+0.3.13 (2024-09-06)
+  * Internal update to track latest roxido framework.
+  * Update for CRAN compliance in reporting rustc version during installation.
+
+0.3.9 (2023-07-17)
+  * Adjust "SystemRequirements" as per
+    [Using Rust in CRAN packages](https://cran.r-project.org/web/packages/using_rust.html)
+  * Updated reference for paper.
+  * Updated to latest framework from cargo package.
+
+0.3.6 (2022-12-19)
+  * Improved authorship in DESCRIPTION.
+
+0.3.4 (2022-12-06)
+  * Noted authorship of depending Rust crates in DESCRIPTION.
+  * Modified configure script based on CRAN feedback.
+
+0.2.32 (2022-07-01)
+  * Updated to latest Cargo Framework from the cargo package.
+
+0.2.29 (2022-04-20)
+  * Updated to latest Cargo Framework from the cargo package.
+
+0.2.28 (2022-03-21)
+  * Updated details on the implementation to reflect latest manuscript.
+  * Updated all dependencies.
+
+0.2.17 (2021-08-12)
+  * Port to use the cargo framework, dropping the dependency on the cargo
+    package.
+  * Bump all dependencies.
+
+0.2.13 (2021-06-17)
+  * Added support for reciprocal similarity function.
+
+0.2.11 (2021-06-02)
+  * Initial release on CRAN.
+
