@@ -5,6 +5,11 @@
     "branch": "pkg/splinclust"
   },
   {
+    "package": "fangs",
+    "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
+    "branch": "pkg/fangs"
+  },
+  {
     "package": "salso",
     "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
     "branch": "pkg/salso"
