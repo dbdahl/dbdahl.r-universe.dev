@@ -5,6 +5,11 @@
     "branch": "pkg/bantha"
   },
   {
+    "package": "treeSB",
+    "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
+    "branch": "pkg/treeSB"
+  },
+  {
     "package": "pumpkin",
     "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
     "branch": "pkg/pumpkin"
