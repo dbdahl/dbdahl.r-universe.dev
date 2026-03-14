@@ -1,5 +1,10 @@
 [
   {
+    "package": "bantha",
+    "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
+    "branch": "pkg/bantha"
+  },
+  {
     "package": "lorenzpartition",
     "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
     "branch": "pkg/lorenzpartition"
