@@ -1,28 +1,8 @@
 [
   {
-    "package": "bantha",
-    "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
-    "branch": "pkg/bantha"
-  },
-  {
-    "package": "treeSB",
-    "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
-    "branch": "pkg/treeSB"
-  },
-  {
     "package": "slicesampler",
     "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
     "branch": "pkg/slicesampler"
-  },
-  {
-    "package": "pumpkin",
-    "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
-    "branch": "pkg/pumpkin"
-  },
-  {
-    "package": "splinclust",
-    "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
-    "branch": "pkg/splinclust"
   },
   {
     "package": "gourd",
