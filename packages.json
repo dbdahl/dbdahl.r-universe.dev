@@ -1,10 +1,5 @@
 [
   {
-    "package": "slicesampler",
-    "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
-    "branch": "pkg/slicesampler"
-  },
-  {
     "package": "gourd",
     "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
     "branch": "pkg/gourd"
