@@ -1,18 +1,18 @@
 # dbdahl.r-universe.dev
 
-R-universe registry and public package staging for
+R-universe registry for
 [dbdahl.r-universe.dev](https://dbdahl.r-universe.dev).
 
-## Branch layout
+## How packages get here
 
-- **`main`** — registry (`packages.json`) and tooling only
-- **`pkg/<package>`** — published source snapshot for each package
+`packages.json` points at each package's own public GitHub repository.
+R-universe builds and checks the default branch automatically after each push.
 
 ## Installing packages
 
 ```r
 install.packages(
-  "splinclust",
+  "salso",
   repos = c("https://dbdahl.r-universe.dev", "https://cloud.r-project.org")
 )
 ```
@@ -26,7 +26,7 @@ options(repos = c(
 ))
 ```
 
-Then `install.packages("splinclust")` works normally.
+Then `install.packages("salso")` works normally.
 
 Always include CRAN alongside the universe URL so that dependencies resolve
 correctly.

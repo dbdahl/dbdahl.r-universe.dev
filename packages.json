@@ -1,22 +1,22 @@
 [
   {
     "package": "gourd",
-    "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
-    "branch": "pkg/gourd"
+    "url": "https://github.com/dbdahl/gourd-package",
+    "subdir": "gourd"
   },
   {
     "package": "fangs",
-    "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
-    "branch": "pkg/fangs"
+    "url": "https://github.com/dbdahl/fangs-package",
+    "subdir": "fangs"
   },
   {
     "package": "caviarpd",
-    "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
-    "branch": "pkg/caviarpd"
+    "url": "https://github.com/dbdahl/caviarpd-package",
+    "subdir": "caviarpd"
   },
   {
     "package": "salso",
-    "url": "https://github.com/dbdahl/dbdahl.r-universe.dev",
-    "branch": "pkg/salso"
+    "url": "https://github.com/dbdahl/salso",
+    "subdir": "salso"
   }
 ]
